@@ -53,4 +53,10 @@ val = firstName.slice(-3);
 val = str.split(' ');
 val = tags.split(',');
 
+// replace()
+val = str.replace('Montes', 'Jack');
+
+// includes()
+val = str.includes('foo');
+
 console.log(val);
