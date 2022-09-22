@@ -1,6 +1,6 @@
 'use strict';
 
-const name = 'Monties';
+const personName = 'Monties';
 const age = 30;
 const job = 'Front End Developer';
 const city = 'Miami';
@@ -9,7 +9,7 @@ let html;
 // Without Template Strings (es5)
 html =
   '<ul><li>Name: ' +
-  name +
+  personName +
   '</li><li>Age: ' +
   ' </li><li>Job: ' +
   job +
