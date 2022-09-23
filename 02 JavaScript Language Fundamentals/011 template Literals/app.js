@@ -16,3 +16,5 @@ html =
   ' </li><li>City: ' +
   city +
   ' </li></ul>';
+
+document.body.innerHTML = html;
