@@ -28,6 +28,25 @@ const square = function (x = 3) {
   console.log('IIFE ran...');
 })(); */
 
-(function (name1) {
-  console.log('Hello ' + name1);
-})('Montes');
+// (function (name1) {
+//   console.log('Hello ' + name1);
+// })('Montes');
+
+// PROPERTY METHODS
+
+const todo = {
+  add: function () {
+    console.log('Add todo..');
+  },
+  edit: function (id) {
+    console.log(`Edit todo ${id}`);
+  },
+};
+
+todo.delete = function () {
+  console.log('Delete todo...');
+};
+
+todo.add();
+todo.edit(22);
+todo.delete();
