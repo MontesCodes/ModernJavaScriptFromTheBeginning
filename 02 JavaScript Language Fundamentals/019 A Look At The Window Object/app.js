@@ -1,18 +1,29 @@
 'use strict';
 // WINDOW METHODS / OBJECTS / PROPERTIES
 
-// console.log(123);
+console.log(123);
 
-// ALERT
-// alert('Hello World');
+// Alert
+alert('Hello World');
 
 // Prompt
-// const input = prompt();
-// alert(input);
+const input = prompt();
+alert(input);
 
 // Confirm
-if (confirm('Are you sure')) {
-  console.log('YES');
+if (confirm('Are you sure?')) {
+  console.log('Yes please');
 } else {
-  console.log('NO');
+  console.log('No thank you');
 }
+
+let val;
+// Outter height and width
+val = window.outerHeight;
+val = window.outerWidth;
+
+// Inner height and width
+val = window.innerHeight;
+val = window.innerWidth;
+
+console.log(val);
