@@ -7,8 +7,8 @@ console.log(123);
 alert('Hello World');
 
 // Prompt
-const input = prompt();
-alert(input);
+// const input = prompt();
+// alert(input);
 
 // Confirm
 if (confirm('Are you sure?')) {
@@ -25,5 +25,13 @@ val = window.outerWidth;
 // Inner height and width
 val = window.innerHeight;
 val = window.innerWidth;
+
+// Scroll points
+val = window.scrollY;
+val = window.scrollX;
+
+// Location Object
+val = window.location;
+val = window.location.hostname;
 
 console.log(val);
